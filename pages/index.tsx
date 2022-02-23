@@ -76,7 +76,19 @@ const IndexPage = (): ReactElement => {
       </main>
       <footer>
         <Container>
-          <Section>&copy;&nbsp;kixixixixi</Section>
+          <Section>
+            <div style={{ margin: "1rem 0", textAlign: "right" }}>
+              Ref.
+              <a
+                href="https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/ugoki/h12ugoki/h12tokei/h12to02a.htm"
+                target="_blank"
+                rel="noreferrer"
+              >
+                国会議員会派別議員数の推移
+              </a>
+            </div>
+            <div style={{ textAlign: "center" }}>&copy;&nbsp;kixixixixi</div>
+          </Section>
         </Container>
       </footer>
     </>
